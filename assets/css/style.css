@@ -1,0 +1,33 @@
+.ele-group {
+    width: 100%;
+    display: inline-flex;
+    > input {
+        margin-right: 10px;
+    }
+}
+
+.template {
+    display: flex;
+    justify-content: center;
+    div {
+        width: 100%;
+    }
+}
+
+.div-labels {
+  display: flex;
+  flex-direction: column;
+}
+
+.checked{
+  text-decoration: line-through; 
+  font-style: italic;
+}
+
+.btn-danger {
+  font-size: 10px;
+}
+
+.label-error {
+  color: red;
+}
